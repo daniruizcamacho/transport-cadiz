@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Transportes Bahía de Cádiz
+title: Info Metropolitano Cádiz
 ---
 
 <div style="background: linear-gradient(135deg, #1976D2 0%, #0D47A1 100%); color: white; padding: 4rem 1rem; text-align: center; margin-top: 3rem; margin-bottom: 3rem; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-  <h1 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">Transportes Bahía de Cádiz</h1>
+  <h1 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">Info Metropolitano Cádiz</h1>
   <h2 style="color: white; font-weight: 400; max-width: 800px; margin: 0 auto 2rem;">Consulta rutas y horarios del bus interurbano en la Bahía de Cádiz de manera fácil y rápida</h2>
   <div style="background-color: rgba(255,255,255,0.1); border-radius: 8px; padding: 1rem; max-width: 300px; margin: 0 auto;">
     <img src="./assets/indexScreenshot.png" alt="Pantalla principal de la aplicación" style="max-width: 100%; border-radius: 8px; box-shadow: 0 10px 20px rgba(0,0,0,0.3);">
@@ -15,7 +15,7 @@ title: Transportes Bahía de Cádiz
 
 <div style="background-color: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin: 2rem 0;">
   <p style="font-size: 1.1rem; line-height: 1.8;">
-    <strong style="color: var(--primary-dark);">Transportes Bahía de Cádiz</strong> es una aplicación diseñada para facilitar la consulta de rutas, horarios y paradas del transporte público interurbano en la Bahía de Cádiz. Gracias a la integración con la API oficial del Consorcio de Transportes de Andalucía, ofrece información actualizada y precisa sobre líneas de autobuses y operadores disponibles.
+    <strong style="color: var(--primary-dark);">Info Metropolitano Cádiz</strong> es una aplicación diseñada para facilitar la consulta de rutas, horarios y paradas del transporte público interurbano en la Bahía de Cádiz. Gracias a la integración con la API oficial del Consorcio de Transportes de Andalucía, ofrece información actualizada y precisa sobre líneas de autobuses y operadores disponibles.
   </p>
   <p style="font-style: italic; color: #666; margin-top: 1rem; text-align: center;">
     "La forma más sencilla de moverte por la Bahía de Cádiz sin complicaciones"
@@ -151,7 +151,7 @@ title: Transportes Bahía de Cádiz
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
     <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 2rem;" class="footer-content">
       <div style="flex: 1; min-width: 300px; margin-bottom: 1rem;">
-        <h3 style="color: var(--primary-light);">Transportes Bahía de Cádiz</h3>
+        <h3 style="color: var(--primary-light);">Info Metropolitano Cádiz</h3>
         <p style="color: white; line-height: 1.6;">Tu compañero de viaje para moverte por la Bahía de Cádiz de manera rápida y eficiente.</p>
       </div>
       <div style="flex: 1; min-width: 300px; margin-bottom: 1rem;">
@@ -160,7 +160,7 @@ title: Transportes Bahía de Cádiz
       </div>
     </div>
     <div style="color: white; border-top: 1px solid #444; padding-top: 1rem;">
-      <p style="color: white;">© {{ 'now' | date: "%Y" }} Transportes Bahía de Cádiz. Todos los derechos reservados.</p>
+      <p style="color: white;">© {{ 'now' | date: "%Y" }} Info Metropolitano Cádiz. Todos los derechos reservados.</p>
     </div>
   </div>
 </footer>

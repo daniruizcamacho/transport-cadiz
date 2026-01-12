@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Términos y Condiciones - Transportes Bahía de Cádiz
+title: Términos y Condiciones - Info Metropolitano Cádiz
 class: terms-page
 ---
 
 # Términos y Condiciones
 
-**Transportes Bahía de Cádiz**
+**Info Metropolitano Cádiz**
 
 ## 1. Aceptación de los términos
 
-Al descargar, instalar o utilizar la aplicación "Transportes Bahía de Cádiz", aceptas estar vinculado por estos términos y condiciones. Si no estás de acuerdo con alguno de estos términos, no debes utilizar la aplicación.
+Al descargar, instalar o utilizar la aplicación "Info Metropolitano Cádiz", aceptas estar vinculado por estos términos y condiciones. Si no estás de acuerdo con alguno de estos términos, no debes utilizar la aplicación.
 
 ## 2. Descripción del servicio
 
-Transportes Bahía de Cádiz es una aplicación que proporciona información sobre rutas, horarios y paradas del transporte público interurbano en la Bahía de Cádiz, utilizando datos proporcionados del Consorcio de Transportes de Andalucía.
+Info Metropolitano Cádiz es una aplicación que proporciona información sobre rutas, horarios y paradas del transporte público interurbano en la Bahía de Cádiz, utilizando datos proporcionados del Consorcio de Transportes de Andalucía.
 
 ## 3. Uso de la aplicación
 

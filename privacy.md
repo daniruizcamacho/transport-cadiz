@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Política de Privacidad - Transportes Bahía de Cádiz
+title: Política de Privacidad - Info Metropolitano Cádiz
 class: privacy-page
 ---
 
 # Política de Privacidad
 
-**Transportes Bahía de Cádiz**
+**Info Metropolitano Cádiz**
 
 ## Introducción
 
-Bienvenido a la política de privacidad de Transportes Bahía de Cádiz. Esta política describe cómo recopilamos, utilizamos y compartimos la información cuando utilizas nuestra aplicación móvil.
+Bienvenido a la política de privacidad de Info Metropolitano Cádiz. Esta política describe cómo recopilamos, utilizamos y compartimos la información cuando utilizas nuestra aplicación móvil.
 
 ## Información que recopilamos
 
