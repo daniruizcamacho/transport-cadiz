@@ -1,13 +1,13 @@
-/* 
-  Info Metropolitano Cádiz - Terms & Privacy Modern Styles
-*/
+.legal-content {
+  padding: 4rem 0;
+}
 
-section {
+.legal-content .wrapper {
   background-color: var(--white);
   padding: 3rem;
   box-shadow: var(--shadow-lg);
   border-radius: var(--radius-lg);
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-bottom: 4rem;
 }
 

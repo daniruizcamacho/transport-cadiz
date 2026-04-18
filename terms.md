@@ -4,6 +4,9 @@ title: Términos y Condiciones - Info Metropolitano Cádiz
 class: terms-page
 ---
 
+<section class="legal-content">
+  <div class="wrapper">
+
 # Términos y Condiciones
 
 **Info Metropolitano Cádiz**
@@ -53,3 +56,6 @@ Nos reservamos el derecho de modificar estos términos en cualquier momento. Las
 Estos términos se regirán e interpretarán de acuerdo con las leyes de España, sin tener en cuenta sus conflictos de disposiciones legales.
 
 Al utilizar esta aplicación, confirmas que has leído, entendido y aceptado estos términos y condiciones.
+
+  </div>
+</section>

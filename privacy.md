@@ -4,6 +4,9 @@ title: Política de Privacidad - Info Metropolitano Cádiz
 class: privacy-page
 ---
 
+<section class="legal-content">
+  <div class="wrapper">
+
 # Política de Privacidad
 
 **Info Metropolitano Cádiz**
@@ -58,3 +61,6 @@ De acuerdo con la legislación aplicable, puedes tener derecho a:
 ## Consentimiento
 
 Al utilizar nuestra aplicación, aceptas los términos de esta política de privacidad. Si no estás de acuerdo con esta política, por favor, no utilices nuestra aplicación.
+
+  </div>
+</section>
