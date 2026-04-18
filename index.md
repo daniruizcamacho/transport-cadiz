@@ -3,164 +3,205 @@ layout: default
 title: Info Metropolitano Cádiz
 ---
 
-<div style="background: linear-gradient(135deg, #1976D2 0%, #0D47A1 100%); color: white; padding: 4rem 1rem; text-align: center; margin-top: 3rem; margin-bottom: 3rem; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-  <h1 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">Info Metropolitano Cádiz</h1>
-  <h2 style="color: white; font-weight: 400; max-width: 800px; margin: 0 auto 2rem;">Consulta rutas y horarios del bus interurbano en la Bahía de Cádiz de manera fácil y rápida</h2>
-  <div style="background-color: rgba(255,255,255,0.1); border-radius: 8px; padding: 1rem; max-width: 300px; margin: 0 auto;">
-    <img src="./assets/indexScreenshot.png" alt="Pantalla principal de la aplicación" style="max-width: 100%; border-radius: 8px; box-shadow: 0 10px 20px rgba(0,0,0,0.3);">
-  </div>
-</div>
-
-## Sobre la aplicación
-
-<div style="background-color: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin: 2rem 0;">
-  <p style="font-size: 1.1rem; line-height: 1.8;">
-    <strong style="color: var(--primary-dark);">Info Metropolitano Cádiz</strong> es una aplicación diseñada para facilitar la consulta de rutas, horarios y paradas del transporte público interurbano en la Bahía de Cádiz. Gracias a la integración con la API oficial del Consorcio de Transportes de Andalucía, ofrece información actualizada y precisa sobre líneas de autobuses y operadores disponibles.
-  </p>
-  <p style="font-style: italic; color: #666; margin-top: 1rem; text-align: center;">
-    "La forma más sencilla de moverte por la Bahía de Cádiz sin complicaciones"
-  </p>
-</div>
-
-## 🔍 Características principales
-
-<div class="features-grid">
-  <div class="feature-card">
-    <div class="feature-icon">🔎</div>
-    <div class="feature-title">Búsqueda de rutas</div>
-    <p>Encuentra rutas por destino como hospitales, estaciones o lugares de interés.</p>
-  </div>
-  
-  <div class="feature-card">
-    <div class="feature-icon">🕒</div>
-    <div class="feature-title">Horarios detallados</div>
-    <p>Consulta horarios precisos de ida y vuelta para planificar tu viaje.</p>
-  </div>
-  
-  <div class="feature-card">
-    <div class="feature-icon">ℹ️</div>
-    <div class="feature-title">Información completa</div>
-    <p>Accede a datos sobre operadores, tipo de transporte y más.</p>
-  </div>
-  
-  <div class="feature-card">
-    <div class="feature-icon">📱</div>
-    <div class="feature-title">Interfaz intuitiva</div>
-    <p>Disfruta de una experiencia de usuario adaptada para todos los públicos.</p>
-  </div>
-  
-  <div class="feature-card">
-    <div class="feature-icon">📅</div>
-    <div class="feature-title">Compatibilidad calendario</div>
-    <p>Información adaptada para días laborables, festivos y domingos.</p>
-  </div>
-</div>
-
-## Capturas de pantalla
-
-<div class="screenshots-container">
-  <div class="screenshot-item">
-    <img src="./assets/indexScreenshot.png" alt="Pantalla principal de la aplicación">
-    <div class="screenshot-caption">Pantalla principal</div>
-  </div>
-  
-  <div class="screenshot-item">
-    <img src="./assets/detailScreenshot.png" alt="Detalle de ruta">
-    <div class="screenshot-caption">Detalle de ruta</div>
-  </div>
-  
-  <div class="screenshot-item">
-    <img src="./assets/detailScheduleScreenshot.png" alt="Horarios detallados">
-    <div class="screenshot-caption">Horarios detallados</div>
-  </div>
-  
-  <div class="screenshot-item">
-    <img src="./assets/stopDetailScreenshot.png" alt="Información de parada">
-    <div class="screenshot-caption">Información de parada</div>
-  </div>
-  
-  <div class="screenshot-item">
-    <img src="./assets/loadingPageScreenshot.png" alt="Carga de datos">
-    <div class="screenshot-caption">Carga de datos</div>
-  </div>
-  
-  <div class="screenshot-item">
-    <img src="./assets/openMapScreenshot.png" alt="Vista de mapa">
-    <div class="screenshot-caption">Vista de mapa</div>
-  </div>
-</div>
-
-## 🚌 Para quién es esta aplicación
-
-<div class="features-grid">
-  <div class="feature-card">
-    <div class="feature-icon">🏠</div>
-    <div class="feature-title">Residentes</div>
-    <p>Habitantes de la Bahía de Cádiz que utilizan el transporte público regularmente.</p>
-  </div>
-  
-  <div class="feature-card">
-    <div class="feature-icon">🎓</div>
-    <div class="feature-title">Estudiantes</div>
-    <p>Jóvenes que necesitan desplazarse entre localidades para asistir a sus centros educativos.</p>
-  </div>
-  
-  <div class="feature-card">
-    <div class="feature-icon">🏖️</div>
-    <div class="feature-title">Turistas</div>
-    <p>Visitantes que quieren explorar la región sin complicaciones ni necesidad de vehículo propio.</p>
-  </div>
-  
-  <div class="feature-card">
-    <div class="feature-icon">💼</div>
-    <div class="feature-title">Trabajadores</div>
-    <p>Personas que se desplazan diariamente entre municipios por motivos laborales.</p>
-  </div>
-</div>
-
-## Zonas cubiertas
-
-<div style="background-color: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin: 2rem 0;">
-  <h3 style="color: var(--primary-blue); margin-top: 0;">La aplicación incluye información del transporte interurbano entre:</h3>
-  <div style="columns: 2; column-gap: 2rem;">
-    <ul style="list-style-type: none; padding-left: 0;">
-      <li>✓ Cádiz</li>
-      <li>✓ San Fernando</li>
-      <li>✓ Chiclana</li>
-      <li>✓ Puerto Real</li>
-    </ul>
-    <ul style="list-style-type: none; padding-left: 0;">
-      <li>✓ El Puerto de Santa María</li>
-      <li>✓ Jerez</li>
-      <li>✓ Y otras localidades cercanas</li>
-    </ul>
-  </div>
-</div>
-
-## Descarga e instalación
-
-<div class="cta-section">
-  <h2>Disponible en:</h2>
-  <div class="app-badge">
-    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play" height="60">
-  </div>
-  <p style="margin-top: 1.5rem; font-size: 1.2rem;">¡Simplifica tus desplazamientos por la Bahía de Cádiz con nuestra app!</p>
-</div>
-
-<footer style="background-color: #252525; color: #e8e8e8; padding: 2rem 0; margin-top: 3rem; text-align: center; border-radius: 8px;" class="site-footer">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 2rem;" class="footer-content">
-      <div style="flex: 1; min-width: 300px; margin-bottom: 1rem;">
-        <h3 style="color: var(--primary-light);">Info Metropolitano Cádiz</h3>
-        <p style="color: white; line-height: 1.6;">Tu compañero de viaje para moverte por la Bahía de Cádiz de manera rápida y eficiente.</p>
-      </div>
-      <div style="flex: 1; min-width: 300px; margin-bottom: 1rem;">
-        <h3 style="color: var(--primary-light);">Contacto</h3>
-        <p style="color: white; margin-bottom: 10px;">¿Tienes alguna pregunta o sugerencia? No dudes en contactarnos.</p>
+<section class="hero">
+  <div class="wrapper">
+    <div class="hero-content animate-fade-up">
+      <h1>Info Metropolitano Cádiz</h1>
+      <p>Consulta rutas y horarios del bus interurbano en la Bahía de Cádiz de manera fácil y rápida, directamente desde tu móvil.</p>
+      
+      <div class="hero-screenshot">
+        <img src="./assets/indexScreenshot.png" alt="Pantalla principal de la aplicación">
       </div>
     </div>
-    <div style="color: white; border-top: 1px solid #444; padding-top: 1rem;">
-      <p style="color: white;">© {{ 'now' | date: "%Y" }} Info Metropolitano Cádiz. Todos los derechos reservados.</p>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrapper">
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+      <h2 style="font-size: 2.5rem; margin-bottom: 2rem;">Sobre la aplicación</h2>
+      <p style="font-size: 1.25rem; color: var(--text-muted); line-height: 1.8;">
+        <strong>Info Metropolitano Cádiz</strong> es tu compañero ideal para moverte por la Bahía. 
+        Utilizamos la API oficial del Consorcio de Transportes de Andalucía para ofrecerte información precisa y actualizada en tiempo real.
+      </p>
+      <p style="font-style: italic; color: var(--primary); margin-top: 2rem; font-weight: 500; font-size: 1.1rem;">
+        "La forma más sencilla de moverte por la Bahía de Cádiz sin complicaciones"
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="features">
+  <div class="wrapper">
+    <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 4rem;">Características principales</h2>
+    
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🔎</div>
+        <h3 class="feature-title">Búsqueda inteligente</h3>
+        <p>Encuentra rutas rápidamente buscando por hospitales, estaciones o lugares de interés.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🕒</div>
+        <h3 class="feature-title">Horarios en tiempo real</h3>
+        <p>Consulta horarios precisos de ida y vuelta para planificar tu viaje sin esperas innecesarias.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">ℹ️</div>
+        <h3 class="feature-title">Información detallada</h3>
+        <p>Accede a datos completos sobre operadores, tipos de transporte y paradas intermedias.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h3 class="feature-title">Interfaz moderna</h3>
+        <p>Disfruta de una experiencia de usuario fluida, intuitiva y adaptada a tus necesidades.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">📅</div>
+        <h3 class="feature-title">Gestión de calendarios</h3>
+        <p>Información siempre adaptada según sea día laborable, sábado, domingo o festivo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="screenshots" class="screenshots">
+  <div class="wrapper">
+    <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">Explora la App</h2>
+    <p style="text-align: center; color: var(--text-muted); margin-bottom: 4rem;">Desliza para ver más pantallas</p>
+    
+    <div class="screenshots-container">
+      <div class="screenshot-item">
+        <img src="./assets/indexScreenshot.png" alt="Pantalla principal">
+      </div>
+      
+      <div class="screenshot-item">
+        <img src="./assets/detailScreenshot.png" alt="Detalle de ruta">
+      </div>
+      
+      <div class="screenshot-item">
+        <img src="./assets/detailScheduleScreenshot.png" alt="Horarios detallados">
+      </div>
+      
+      <div class="screenshot-item">
+        <img src="./assets/stopDetailScreenshot.png" alt="Información de parada">
+      </div>
+      
+      <div class="screenshot-item">
+        <img src="./assets/loadingPageScreenshot.png" alt="Carga de datos">
+      </div>
+      
+      <div class="screenshot-item">
+        <img src="./assets/openMapScreenshot.png" alt="Vista de mapa">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="audience" class="audience">
+  <div class="wrapper">
+    <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 4rem;">🚌 Diseñada para todos</h2>
+    
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🏠</div>
+        <h3 class="feature-title">Residentes</h3>
+        <p>Habitantes de la Bahía que utilizan el transporte público regularmente para su día a día.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🎓</div>
+        <h3 class="feature-title">Estudiantes</h3>
+        <p>Jóvenes que necesitan desplazarse entre localidades para asistir a sus centros educativos.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🏖️</div>
+        <h3 class="feature-title">Turistas</h3>
+        <p>Visitantes que quieren explorar la región de manera sostenible y sin coche propio.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">💼</div>
+        <h3 class="feature-title">Trabajadores</h3>
+        <p>Profesionales que se desplazan diariamente entre municipios por motivos laborales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="zones" class="zones">
+  <div class="wrapper">
+    <div style="background: white; padding: 4rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-xl); display: flex; flex-wrap: wrap; align-items: center; gap: 4rem;">
+      <div style="flex: 1; min-width: 300px;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Zonas cubiertas</h2>
+        <p style="font-size: 1.1rem; color: var(--text-muted);">Damos cobertura a los principales municipios de la Bahía de Cádiz y sus conexiones interurbanas.</p>
+      </div>
+      <div style="flex: 1; min-width: 300px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div style="display: flex; align-items: center; gap: 0.75rem; font-weight: 500;">
+            <span style="color: var(--primary);">✓</span> Cádiz
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.75rem; font-weight: 500;">
+            <span style="color: var(--primary);">✓</span> San Fernando
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.75rem; font-weight: 500;">
+            <span style="color: var(--primary);">✓</span> Chiclana
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.75rem; font-weight: 500;">
+            <span style="color: var(--primary);">✓</span> Puerto Real
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.75rem; font-weight: 500;">
+            <span style="color: var(--primary);">✓</span> El Puerto
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.75rem; font-weight: 500;">
+            <span style="color: var(--primary);">✓</span> Jerez
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="download" class="cta-section">
+  <div class="wrapper">
+    <h2>Descarga la App hoy</h2>
+    <p>Simplifica tus desplazamientos por la Bahía de Cádiz y no vuelvas a perder un bus.</p>
+    
+    <div class="app-badge">
+      <a href="#">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play">
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-content">
+      <div>
+        <h3 style="color: white; font-size: 1.5rem; margin-bottom: 1rem;">Info Metropolitano Cádiz</h3>
+        <p>Tu compañero de viaje para moverte por la Bahía de Cádiz de manera rápida, eficiente y moderna.</p>
+      </div>
+      <div>
+        <h3>Enlaces</h3>
+        <ul style="list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="{{ site.baseurl }}/" style="color: rgba(255,255,255,0.6);">Inicio</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="{{ site.baseurl }}/terms" style="color: rgba(255,255,255,0.6);">Términos y Condiciones</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="{{ site.baseurl }}/privacy" style="color: rgba(255,255,255,0.6);">Política de Privacidad</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <p>¿Tienes alguna pregunta o sugerencia? Estaremos encantados de escucharte.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {{ 'now' | date: "%Y" }} Info Metropolitano Cádiz. Todos los derechos reservados.</p>
     </div>
   </div>
 </footer>

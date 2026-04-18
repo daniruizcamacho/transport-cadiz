@@ -5,35 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 {% seo %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
     {% if page.url contains 'terms' or page.url contains 'privacy' %}
     <link rel="stylesheet" href="{{ '/assets/css/terms-privacy.css?v=' | append: site.github.build_revision | relative_url }}">
     {% endif %}
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
   </head>
   <body{% if page.class %} class="{{ page.class }}"{% endif %}>
-      <div id="header" style="background: #252525 !important; background-image: none !important;">
-        <div class="nav-container">
-          <nav style="background: none !important; background-color: transparent !important;">
-            <button id="menu-toggle" aria-label="Toggle menu">☰</button>
-            <ul class="nav-menu">
-              <li><a href="{{ site.baseurl }}/">Inicio</a></li>
-              <li><a href="{{ site.baseurl }}/terms">Términos y Condiciones</a></li>
-              <li><a href="{{ site.baseurl }}/privacy">Política de Privacidad</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div><!-- end header -->
+    <header id="main-header">
+      <div class="nav-container">
+        <a href="{{ site.baseurl }}/" class="logo">
+          <span>Info Metropolitano</span> Cádiz
+        </a>
+        <nav>
+          <button id="menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-menu">
+            <li><a href="{{ site.baseurl }}/">Inicio</a></li>
+            <li><a href="{{ site.baseurl }}/terms">Términos</a></li>
+            <li><a href="{{ site.baseurl }}/privacy">Privacidad</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <div class="wrapper">
 

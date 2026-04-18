@@ -1,60 +1,61 @@
-/* Additional styles for terms and privacy pages */
-.wrapper {
-  background-color: linear-gradient(135deg, #1976D2 0%, #0D47A1 100%);
-}
+/* 
+  Info Metropolitano Cádiz - Terms & Privacy Modern Styles
+*/
 
 section {
-  background-color: linear-gradient(135deg, #1976D2 0%, #0D47A1 100%);
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  border-radius: 5px;
+  background-color: var(--white);
+  padding: 3rem;
+  box-shadow: var(--shadow-lg);
+  border-radius: var(--radius-lg);
+  margin-top: 8rem;
+  margin-bottom: 4rem;
 }
 
-section p {
-  color: #ffffff;
-  font-size: 16px;
-}
-
-section ul li {
-  color: #ffffff;
-  font-size: 16px;
-  margin-bottom: 10px;
+section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--text-main);
+  background: var(--grad-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 section h2 {
-  color: #1976D2;
-  border-bottom: 1px solid #BBDEFB;
-  padding-bottom: 10px;
-  margin-top: 30px;
+  font-size: 1.75rem;
+  color: var(--text-main);
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 2px solid var(--primary-light);
+  padding-bottom: 0.5rem;
+  display: inline-block;
 }
 
-/* Force text to be visible */
-* {
-  text-shadow: none !important;
+section p {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
 }
 
-/* Special styling for the terms and privacy pages */
-body.terms-page section p, 
-body.terms-page section li,
-body.privacy-page section p,
-body.privacy-page section li {
-  color: #ffffff !important;
-  font-size: 16px !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  display: block !important;
+section ul {
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
 }
 
-/* Improve list styling */
-body.terms-page section ul,
-body.privacy-page section ul {
-  list-style-type: disc !important;
-  padding-left: 40px !important;
+section ul li {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  position: relative;
 }
 
-body.terms-page section ul li,
-body.privacy-page section ul li {
-  display: list-item !important;
-  margin-bottom: 10px !important;
-  list-style-type: disc !important;
+@media (max-width: 768px) {
+  section {
+    padding: 1.5rem;
+    margin-top: 6rem;
+  }
+  
+  section h1 {
+    font-size: 2rem;
+  }
 }
